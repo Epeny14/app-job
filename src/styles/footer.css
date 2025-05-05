@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer {
+    margin-top: -164px;
+    margin-left: 558px;
+    position: absolute;
+}
+
+.under-footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.img-message {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.img-mail {
+    width: 30px;
+    margin-left: 15px;
+}
+
+.img-document {
+    width: 30px;
+    margin-left: 20px;
+}
+
+.img-rdv {
+    width: 30px;
+    margin-left: 0px;
+}
+
+.img-chat {
+    width: 30px;
+    margin-left: 20px;
+}
+
+
+.text-rdv {
+    text-align: center;
+}
+
+.footer-horizontal {
+    margin-left: -12px;
+    width: 359px;
+}
+
+/*------------ Responsive Design ----------------*/
+
+@media only screen and (max-width: 480px) {
+    .footer {
+        margin-left: 78px;
+    }
+}

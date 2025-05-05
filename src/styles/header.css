@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: -785px;
+    height: 30px;
+}
+
+.arrow-left {
+    position: absolute;
+    margin-left: -35px;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid #127ECE;
+    width: 100%;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 264px;
+}
+
+.title-08 {
+    position: absolute;
+    margin-left: 100px;
+}

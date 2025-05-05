@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-text {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.under-text-1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-text-1 {
+    margin-left: 10px;
+}
+
+.under-text-2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-text-2 {
+    margin-left: 10px;
+}
+
+.under-text-3 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-text-3 {
+    margin-left: 10px;
+}
+
+.under-text-4 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-text-4 {
+    margin-left: 10px;
+}
+
+.under-text-5 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-text-5 {
+    margin-left: 10px;
+}
+
+.img-check {
+    width: 20px;
+}
+
+.section-button {
+    margin-top: 10px;
+    border: 1px solid #087ACC;
+    background: #087ACC;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 757px;
+    margin-left: 25px;
+    position: absolute;
+}
+
+.text-name {
+    text-align: center;
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.under-section-text {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.smartphone-1 {
+    position: relative;
+    width: 360px;
+    height: 850px;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 530px;
+    margin-top: 10px;
+}
+
+.smartphone-1:before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    width: 60px;
+    height: 5px;
+    background: black;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.screen-1 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.smartphone-1:after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    width: 35px;
+    height: 35px;
+    background: black;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+/*------------ Responsive Design ----------------*/
+@media only screen and (max-width: 480px) {
+    .smartphone-1 {
+        margin-left: 50px;
+    }
+}

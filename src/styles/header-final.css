@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-final {
+    display: flex;
+    justify-content: center;
+    margin-top: -580px;
+    height: 30px;
+    position: absolute;
+}
+
+.arrow-left-900 {
+    position: absolute;
+    margin-left: -105px;
+}
+
+.actu-140 {
+    text-align: center;
+}

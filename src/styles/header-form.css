@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: -536px;
+    height: 30px;
+    position: absolute;
+}
+
+.arrow-left-2 {
+    position: absolute;
+    margin-left: -98px;
+}
+
+.actu-14 {
+    text-align: center;
+}
+
+.horizontal-line-4 {
+    border-bottom: 1px solid #127ECE;
+    width: 234%;
+    position: absolute;
+    margin-top: 37px;
+}

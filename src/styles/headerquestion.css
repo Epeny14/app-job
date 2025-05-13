@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-question-1 {
+    display: flex;
+    justify-content: center;
+
+    margin-top: -570px;
+    height: 43px;
+    position: absolute;
+}
+
+.arrow-left-question {
+    position: absolute;
+    margin-left: -60px;
+}
+
+.actu-question-110 {
+    color: #127ECE;
+}
+
+.actu-question-100 {
+    text-align: center;
+}

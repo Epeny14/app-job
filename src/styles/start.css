@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.section-border-2 {
+    margin-top: -298px;
+    border: 1px solid #087ACC;
+    background: #087ACC;
+    color: #FFFFFF;
+    width: 330px;
+    height: 150px;
+    border-radius: 10px;
+    display: block;
+    margin-left: 9px;
+    position: absolute;
+}
+
+.section-rocket {
+    display: flex;
+    margin-left: 28px;
+    margin-top: 10px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    width: 264px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.title-actu {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.paragraph-job {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.paragraph-3 {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.img-rocket-start {
+    width: 40px;
+    height: 35px;
+    margin-left: 66px;
+}
+
+.paragraph-start {
+    font-size: 17px;
+    margin-top: 9px;
+    font-weight: bold;
+    color: #127ECE;
+}
+
+.link-2 {
+    text-decoration: none;
+}
+
+.section-border-10 {
+    border: 1px solid #F2F5F8;
+    background: #F2F5F8;
+    width: 330px;
+    height: 90px;
+    border-radius: 10px;
+    margin-left: 9px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.paragraph-situation {
+    font-weight: bold;
+}
+
+
+.section-border-11 {
+    border: 1px solid #F2F5F8;
+    background: #F2F5F8;
+    width: 330px;
+    height: 90px;
+    border-radius: 10px;
+    margin-left: 9px;
+    margin-top: 240px;
+    position: absolute;
+}
+
+.paragraph-validation {
+    font-family: Georgia, serif;
+    font-weight: 700;
+}
+
+.under-border-70 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.under-border-80 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.smartphone-2 {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 540px;
+    margin-top: 30px;
+}
+
+.smartphone-2:before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    width: 60px;
+    height: 5px;
+    background: black;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.screen-2 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.smartphone-2:after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    width: 35px;
+    height: 35px;
+    background: black;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+/*------------ Responsive Design ----------------*/
+@media only screen and (max-width: 480px) {
+    .smartphone-2 {
+        margin-left: 50px;
+    }
+}

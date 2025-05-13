@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.border-content {
+    border: 1px solid #CA2F24;
+    background: #CA2F24;
+    width: 170px;
+    height: 25px;
+    text-align: center;
+    margin-left: 73px;
+    margin-top: -156px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.content-form {
+    margin-top: 100px;
+}
+
+.paragraph-content {
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+
+.paragraph-content-1 {
+    margin-left: 52px;
+    margin-top: -107px;
+    position: absolute;
+}
+
+.title-activity {
+    font-size: 17px;
+}
+
+.title-activity-1 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.section-form {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.form-button {
+    background: #087ACC;
+    border: 1px solid #087ACC;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.label-1 {
+    margin-left: 5px;
+}
+
+.smartphone-4 {
+    position: relative;
+    width: 360px;
+    height: 600px;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 530px;
+    margin-top: 30px;
+}
+
+.smartphone-4:before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    width: 60px;
+    height: 5px;
+    background: black;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.screen-4 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.smartphone-4:after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    width: 35px;
+    height: 35px;
+    background: black;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+/* Pour Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*------------ Responsive Design ----------------*/
+@media only screen and (max-width: 480px) {
+    .smartphone-4 {
+        margin-left: 50px;
+    }
+}

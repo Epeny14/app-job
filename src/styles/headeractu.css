@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-140 {
+    display: flex;
+    justify-content: center;
+    margin-top: -570px;
+    height: 43px;
+    position: absolute;
+}
+
+.arrow-left-140 {
+    position: absolute;
+    margin-left: -60px;
+}
+
+.actu-120 {
+    color: #127ECE;
+}
+
+.actu-130 {
+    text-align: center;
+}
+
+.horizontal-line-3 {
+    border-bottom: 1px solid #127ECE;
+    width: 164%;
+    position: absolute;
+    margin-top: 50px;
+}

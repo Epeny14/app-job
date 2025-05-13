@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.section-question {
+    margin-top: -470px;
+    text-align: center;
+    display: flex;
+    /* margin-left: 676px; */
+    position: absolute;
+}
+
+.section-question-1 {
+    margin-top: -230px;
+    text-align: center;
+    display: flex;
+    /* margin-left: 676px; */
+    position: absolute;
+}
+
+.section-question-2 {
+    margin-top: 145px;
+    text-align: center;
+    display: flex;
+    /* margin-left: 676px; */
+    position: absolute;
+}
+
+.button-10 {
+    background: #F2F5F8;
+    border: 1px solid #F2F5F8;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: -60px;
+}
+
+.under-button-10 {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.button-11 {
+    margin-left: 10px;
+    background: #F2F5F8;
+    border: 1px solid #F2F5F8;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.horizontal-line-question-1 {
+    border-top: 10px solid #F2F5F8;
+    width: 100%;
+    position: absolute;
+    margin-top: -219px;
+}
+
+.buttons-12 {
+    background: #F2F5F8;
+    border: 1px solid #F2F5F8;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 80px;
+    position: absolute;
+    margin-left: -60px;
+}
+
+.buttons-13 {
+    margin-left: 10px;
+    background: #F2F5F8;
+    border: 1px solid #F2F5F8;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.horizontal-line-question-2 {
+    border-top: 10px solid #F2F5F8;
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+}
+
+
+.buttons-14 {
+    background: #F2F5F8;
+    border: 1px solid #F2F5F8;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 80px;
+    position: absolute;
+    margin-left: -56px;
+}
+
+.buttons-15 {
+    margin-left: 15px;
+    background: #F2F5F8;
+    border: 1px solid #F2F5F8;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.under-button-11 {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.text-formation-1 {
+    position: absolute;
+    margin-left: -74px;
+    width: 142px;
+}
+
+.text-formation-2 {
+    position: absolute;
+    margin-left: -86px;
+    margin-top: 25px;
+    width: 177px;
+}
+
+.text-formation-3 {
+    position: absolute;
+    margin-left: -112px;
+    /* margin-top: 35px; */
+    width: 238px;
+}
+
+.button-next-question {
+    background: #087ACC;
+    border: 1px solid #087ACC;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-left: 8px;
+    margin-top: 495px;
+    cursor: pointer;
+}
+
+.text-erreur-2 {
+    color: red;
+    position: absolute;
+    font-size: 13px;
+    margin-top: 580px;
+    margin-left: 20px;
+}
+
+.smartphone-7 {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 530px;
+    margin-top: 30px;
+}
+
+.smartphone-7:before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    width: 60px;
+    height: 5px;
+    background: black;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.screen-7 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.smartphone-7:after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    width: 35px;
+    height: 35px;
+    background: black;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+.horizontal-line-7 {
+    border: 1px solid #087ACC;
+    width: 163%;
+    position: absolute;
+    margin-top: 45px;
+}
+
+
+/*------------ Responsive Design ----------------*/
+@media only screen and (max-width: 480px) {
+    .smartphone-7 {
+        margin-left: 50px;
+    }
+}

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-inscription {
+    display: flex;
+    justify-content: center;
+    margin-top: -745px;
+    height: 43px;
+    position: absolute;
+}
+
+.arrow-left-inscription {
+    position: absolute;
+    margin-left: -65px;
+}
+
+.actu-inscription-70 {
+    color: #127ECE;
+}
+
+.actu-inscription-60 {
+    text-align: center;
+}
+
+.horizontal-line-choice {
+    border-bottom: 1px solid #127ECE;
+    width: 100%;
+    position: absolute;
+    margin-top: 45px;
+    width: 361px;
+}

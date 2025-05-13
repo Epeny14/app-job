@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-section-100 {
+    margin-top: -431px;
+    /* margin-left: 645px; */
+    position: absolute;
+}
+
+.border-actu {
+    margin-top: -216px;
+    display: block;
+    background: #F9EAE9;
+    width: 255px;
+    height: 103px;
+    border: 1px solid #F9EAE9;
+    border-radius: 10px;
+    /* margin-left: 590px; */
+    position: absolute;
+}
+
+.text-job {
+    text-align: center;
+}
+
+.section-50 {
+    display: flex;
+    margin-top: 14px;
+}
+
+.border-50 {
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.text-service {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-emploi {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.arrows {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.section-red {
+    background: #CA2F24;
+    border: 1px solid #CA2F24;
+    width: 170px;
+    height: 19px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.under-text-red {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+.line-horizontale-1 {
+    color: #F2F5F8;
+    width: 250px;
+    margin-left: 3px;
+    margin-top: -60px;
+    position: absolute
+}
+
+.text-section-11 {
+    margin-top: 35px;
+    position: absolute;
+    margin-left: -4px;
+}
+
+.under-text-11 {
+    text-align: center;
+}
+
+.under-text-12 {
+    text-align: center;
+}
+
+.under-text-13 {
+    text-align: center;
+}
+
+.section-choice-91 {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    margin-left: -11px;
+    position: absolute;
+}
+
+.button-1 {
+    background: #F2F5F8;
+    border: 1px solid #F2F5F8;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.under-button-1 {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.button-2 {
+    margin-left: 15px;
+    background: #F2F5F8;
+    border: 1px solid #F2F5F8;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.under-button-2 {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.section-oclock {
+    border: 1px solid #F2F5F8;
+    background: #F2F5F8;
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    /* margin-left: 617px; */
+    margin-top: 435px;
+    position: absolute;
+}
+
+.under-oclock-1 {
+    display: flex;
+    justify-content: normal;
+    margin-left: 34px;
+    margin-top: 10px;
+}
+
+.price {
+    margin-left: 30px;
+}
+
+.under-time-2 {
+    text-align: center;
+}
+
+.under-price-2 {
+    text-align: center;
+}
+
+.button-oclock {
+    border: 1px solid #087ACC;
+    background: #087ACC;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-left: 56px;
+}
+
+.paragraph-oclock {
+    margin-top: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+.smartphone-3 {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.smartphone-3:before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    width: 60px;
+    height: 5px;
+    background: black;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.screen-3 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.smartphone-3:after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    width: 35px;
+    height: 35px;
+    background: black;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+/*------------ Responsive Design ----------------*/
+@media only screen and (max-width: 480px) {
+    .smartphone-3 {
+        margin-left: 50px;
+    }
+}

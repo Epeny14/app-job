@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-debut {
+    display: flex;
+    justify-content: center;
+    margin-top: -560px;
+    height: 45px;
+}
+
+.arrow-left-debut {
+    position: absolute;
+    margin-left: -60px;
+}
+
+.paragraph-period {
+    color: #0478CB;
+}
+
+.text-actu {
+    text-align: center;
+}
+
+.horizontal-line-1 {
+    border-bottom: 1px solid #127ECE;
+    width: 100%;
+    position: absolute;
+    margin-top: 50px;
+}

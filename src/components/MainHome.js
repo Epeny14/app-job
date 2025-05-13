@@ -23,6 +23,11 @@ const MainHome = () => {
                         <Link to="/espace">
                             <img src={Img100} alt="profile" className='img-section-home'></img>
                         </Link>
+
+                        <div className="text-section">
+                            <p>Cette application a été réalisée par </p>
+                            <p>Blaise ENGONZOLOKI</p>
+                        </div>
                     </div>
                 </div>
             </div>
